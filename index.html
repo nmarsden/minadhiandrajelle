@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            color: rgb(58, 28, 28);
+        }
+        #title1 {
+            font-size: 110px;
+            margin: 50px;
+        }
+        #title1 .char1,
+        #title1 .char22	{
+            font-size: 180px;
+        }
+        #title1 .char2,
+        #title1 .char21	{
+            font-size: 170px;
+        }
+        #title1 .char3,
+        #title1 .char20	{
+            font-size: 160px;
+        }
+        #title1 .char4,
+        #title1 .char19	{
+            font-size: 150px;
+        }
+        #title1 .char5,
+        #title1 .char18	{
+            font-size: 140px;
+        }
+        #title1 .char6,
+        #title1 .char17	{
+            font-size: 130px;
+        }
+        #title1 .char7,
+        #title1 .char16	{
+            font-size: 120px;
+        }
+            /*
+          #title1 .word1 {
+              display: inline-block;
+              -webkit-transform: rotate(10deg);
+          }
+          #title1 .word2 {
+              display: inline-block;
+              -webkit-transform: translateY(40px);
+          }
+          #title1 .word3 {
+              display: inline-block;
+              -webkit-transform: rotate(-10deg);
+          }
+          */
+
+        #title2 {
+            color:rgb(129, 15, 15);;
+            font-size: 100px;
+            text-transform: uppercase;
+            margin: 0px;
+        }
+        #title2 .word2 {
+            font-size: 40px;
+        }
+        #title3 {
+            padding: 0px;
+            margin: 0px;
+            font-size: 40px;
+        }
+        #title4 {
+            padding: 0px;
+            margin: 0px;
+            font-size: 130px;
+        }
+    </style>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.lettering.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            //$("#title1").lettering('words').children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-10deg)'});
+            //$("#title1").lettering('words').children("span").lettering();
+
+            $("#title1").lettering();
+            $("#title2").lettering('words');
+            $("#title3").lettering('words');
+            $("#title4").lettering('words');
+        });
+    </script>
+</head>
+<body>
+<h1 id="title1">We're getting married!</h1>
+<h1 id="title2">Minadhi & Rajelle</h1>
+<h1 id="title3">21st November</h1>
+<h1 id="title4">2013</h1>
+</div>
+</body>
+</html>
